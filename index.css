@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alatsi&family=Bree+Serif&family=Caveat+Brush&family=Chewy&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=DynaPuff&family=Gentium+Book+Plus&family=Josefin+Sans&family=Lobster+Two&family=Major+Mono+Display&family=Mali:wght@500&family=Pacifico&family=Quicksand:wght@300&family=Righteous&family=Secular+One&family=Varela+Round&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: rgb(233, 240, 204);
+}
+
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(rgba(38, 39, 38, 0.948), rgb(9, 44, 9));
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navlist1{
+    height: 60px;
+    background: red;
+    width: 60px;
+    border-radius: 50%;
+    border:2px dotted white;
+    animation:sanket 10s infinite;
+}
+@keyframes sanket{
+    0%{
+
+    }
+    30%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate:360deg
+    }
+}
+
+#logo{
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 50px;
+    border-radius: 53%;
+    border: 2px dotted rgb(187, 227, 187);
+}
+.navlist2{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.navlist2>li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.playlist{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    margin: 5px auto;
+
+}
+.albname{
+    background-color: rgb(9, 44, 9);
+    color: white;
+    padding:3px 9px;
+    border-radius: 23px;
+   
+}
+.albumname{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 40%;
+    margin: 10px auto;
+}
+.bottom{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 90px;
+    background:linear-gradient(rgb(9,44,9),#000);
+    color: white;
+    text-align: center;
+}
+.playmusicalbum{
+    width: 30%;
+    height: 340px;
+
+
+}
+.playmusicalbum>img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#turtle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation: sanket 10s infinite;
+}
+.songx{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+    border: 1px solid gray;
+    border-radius: 23px ;
+    text-align: center;
+    padding: 5px;
+}
+#myprogressbar{
+    width: 100%;
+    
+
+}
+#gif{
+    height: 20px;
+
+}
+.signals{
+    width: 30%;
+    margin:3px auto;
+    /* border: 2px solid white; */
+    /* height: 50px; */
+
+}
+.fast1{
+margin:  0px 13%;
+}
